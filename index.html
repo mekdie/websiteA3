@@ -31,6 +31,13 @@ body, html {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/smooth-scrolling.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<!-- Sweet alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="sweetalert2.all.min.js"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<script src = "assets/js/sweetAlert.js"> </script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -375,8 +382,8 @@ body, html {
         <label for="newletter"> Subscribe to our newsletter </label>
       </form>
       <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SUBMIT
+        <button class="w3-button w3-black" type="submit" onclick="submitBtn()">
+        <i class="fa fa-paper-plane"></i> SUBMIT 
         </button>
       </p>
     </form>
@@ -425,6 +432,8 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
+
+<!-- Slideshows js -->
 <script src = "assets/js/slideshow.js"></script>
 <script src = "assets/js/automatic-slideshow.js"></script>
 </body>
