@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Incytus - Virtual Vacation Experience</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -137,11 +137,11 @@ body, html {
           </div>
           <div class="auto fade">
             <div class="numbertext">2 / 3</div>
-            <img class="w3-image w3-round-large" src="images/we know 1.jpg" alt="Buildings" width="700" height="394">
+            <img class="w3-image w3-round-large" src="images/vr1.jpg" alt="Buildings" width="700" height="394">
           </div>
           <div class="auto fade">
             <div class="numbertext">3 / 3</div>
-            <img class="w3-image w3-round-large" src="images/we know 2.jpg" alt="Buildings" width="700" height="394">
+            <img class="w3-image w3-round-large" src="images/vr2.jpg" alt="Buildings" width="700" height="394">
           </div>
         </div>
         <br>
@@ -236,31 +236,31 @@ body, html {
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 5</div>
-        <img src="images/aurora norway.jpg" style="width:100%; height: 560px;">
+        <img src="images/aurora.jpg" alt = "Northern Lights" style="width:100%; height: 560px;">
         <div class="text">Northern Lights</div>
       </div>
     
       <div class="mySlides fade">
         <div class="numbertext">2 / 5</div>
-        <img src="images/switzerland.jpg" style="width:100%; height: 560px;">
+        <img src="images/switzerland.jpg" alt = "Switzerland" style="width:100%; height: 560px;">
         <div class="text">Switzerland</div>
       </div>
     
       <div class="mySlides fade">
         <div class="numbertext">3 / 5</div>
-        <img src="images/picture-of-eiffel-tower-338515.jpg" style="width:100%; height: 560px;">
+        <img src="images/picture-of-eiffel-tower-338515.jpg" alt = "Paris, Eiffel" style="width:100%; height: 560px;">
         <div class="text">Paris, Eiffel Tower</div>
       </div>
     
       <div class="mySlides fade">
         <div class="numbertext">4 / 5</div>
-        <img src="images/great wall.jpg" style="width:100%; height: 560px;">
+        <img src="images/greatwall.jpg" alt = "Great Wall of China" style="width:100%; height: 560px;">
         <div class="text">Great Wall of China</div>
       </div>
     
       <div class="mySlides fade">
         <div class="numbertext">5 / 5</div>
-        <img src="images/uluru.jpg" style="width:100%; height: 560px;">
+        <img src="images/uluru.jpg" alt = "Uluru" style="width:100%; height: 560px;">
         <div class="text">Uluru</div>
       </div>
 
@@ -282,16 +282,8 @@ body, html {
 
 </div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
 
-<!-- Skills Section -->
+<!-- Sign up Section -->
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
@@ -371,22 +363,18 @@ body, html {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +61 234567890</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ask@incytus.com.au</p>
     <br>
-    <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
       <!-- subscribe to news letter checkbox -->
-      <form action="/action_page.php" target = "_blank">
-        <input type="checkbox" id="subscribe" name="newsletter" value="newletter">
-        <label for="newletter"> Subscribe to our newsletter </label>
-      </form>
+      <p><input type="checkbox" id="subscribe" name="newsletter" value="newletter">
+        <label for="subscribe"> Subscribe to our newsletter </label> </p> 
       <p>
         <button class="w3-button w3-black" type="submit" onclick="submitBtn()">
         <i class="fa fa-paper-plane"></i> SUBMIT 
         </button>
       </p>
-    </form>
     <!-- Image of location/map -->     
   </div>
 </div>
