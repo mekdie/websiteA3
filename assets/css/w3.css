@@ -533,6 +533,10 @@ a {
     padding: 8px 16px
 }
 
+.flexRight {
+    position: right;
+}
+
 .w3-main,
 #main {
     transition: margin-left .4s
