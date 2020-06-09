@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="assets/css/font-family.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/slideshow.css">
-<link rel="stylesheet" href="assets/css/slideshow-gallery.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
@@ -32,7 +31,6 @@ body, html {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/smooth-scrolling.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script src="dist/jquery.gridder.min.js"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -122,7 +120,25 @@ body, html {
       <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th">&nbsp;</i> View Our Highlights Destination</a></p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="images/boy-using-virtual-reality-goggles-3391378.jpg" alt="Buildings" width="700" height="394">
+      <!-- Slideshow container -->
+        <div class="slideshow-container-auto">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="auto fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="w3-image w3-round-large" src="images/boy-using-virtual-reality-goggles-3391378.jpg" alt="Buildings" width="700" height="394">
+          </div>
+          <div class="auto fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="w3-image w3-round-large" src="images/we know 1.jpg" alt="Buildings" width="700" height="394">
+          </div>
+          <div class="auto fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="w3-image w3-round-large" src="images/we know 2.jpg" alt="Buildings" width="700" height="394">
+          </div>
+        </div>
+        <br>
+    
     </div>
   </div>
 </div>
@@ -138,7 +154,9 @@ body, html {
         <div class="w3-container">
           <h3>Realistic 360 Sound</h3>
           <p class="w3-opacity">Feels like there</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p>Incytus moves you into the location with moving and realistic audio that flows all around you.
+            You will hear very good sound quality that makes you feel in action.
+          </p>
           <p><button class="w3-button w3-light-grey w3-block">Read more ...</button></p>
         </div>
       </div>
@@ -149,7 +167,8 @@ body, html {
         <div class="w3-container">
           <h3>Stuning graphics</h3>
           <p class="w3-opacity">Replication of real places</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p>Our services provide you with realistic surrounding that exactly the same as real one. 
+            Smooth, breathtaking, and looks astonishingly.  </p>
           <p><button class="w3-button w3-light-grey w3-block">Read more ...</button></p>
         </div>
       </div>
@@ -160,7 +179,9 @@ body, html {
         <div class="w3-container">
           <h3>Extra excitement</h3>
           <p class="w3-opacity">Providing fictional location</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p>You want to have a vacation somewhere that does not exist? Here we provide you with places from Hogwarts, Neverland, Asgard, and many more. 
+            Nothing can stop your imagination.
+          </p>
           <p><button class="w3-button w3-light-grey w3-block">Read more ...</button></p>
         </div>
       </div>
@@ -171,7 +192,9 @@ body, html {
         <div class="w3-container">
           <h3>Customisable</h3>
           <p class="w3-opacity">Choose your own style</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p>This is your own world and vacation. You can turn everything you wanted to be. From weather, surroundings, and other 
+            things that you have never imagined.
+          </p>
           <p><button class="w3-button w3-light-grey w3-block">Read more ...</button></p>
         </div>
       </div>
@@ -197,37 +220,42 @@ body, html {
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">Featured location</h3>
-  <p class="w3-center w3-large">Best visited virtual location</p>
+  <h3 class="w3-center">Highlights</h3>
+  <p class="w3-center w3-large">Best visited virtual locations</p>
   
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="images/aurora norway.jpg" style="width:100%">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/aurora norway.jpg" style="width:100%; height: 560px;">
         <div class="text">Northern Lights</div>
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="images/switzerland.jpg" style="width:100%">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/switzerland.jpg" style="width:100%; height: 560px;">
         <div class="text">Switzerland</div>
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="images/picture-of-eiffel-tower-338515.jpg" style="width:100%">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/picture-of-eiffel-tower-338515.jpg" style="width:100%; height: 560px;">
         <div class="text">Paris, Eiffel Tower</div>
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="images/great wall.jpg" style="width:100%">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/great wall.jpg" style="width:100%; height: 560px;">
         <div class="text">Great Wall of China</div>
       </div>
     
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/uluru.jpg" style="width:100%; height: 560px;">
+        <div class="text">Uluru</div>
+      </div>
 
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -241,6 +269,7 @@ body, html {
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
       <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
     </div>
     
 
@@ -260,8 +289,8 @@ body, html {
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>Sign up an incytus account for more details and deals! </h3>
-      <p>By using your incytus account in my.incytus portal, you can manage your subscriptions, settings, </p>
-      <p>associated virtual reality devices, customisation, and many more! <br> 
+      <p>By using your account in my.incytus portal, you can manage your subscriptions, settings, 
+        associated virtual reality devices, customisation, and many more! <br> 
       </p>
     </div>
     <div class = "w3-center">
@@ -331,9 +360,9 @@ body, html {
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Any enquiries? Send us a message, and we will get in touch with you ASAP:</p>
   <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Melbourne, Australia</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +61 123456789</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ask-@incytus.com.au</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Incytus Tower, 100 Melbourne St, VIC 3000, Australia</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +61 234567890</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ask@incytus.com.au</p>
     <br>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
@@ -341,7 +370,7 @@ body, html {
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
       <!-- subscribe to news letter checkbox -->
-      <form action="/action_page.php">
+      <form action="/action_page.php" target = "_blank">
         <input type="checkbox" id="subscribe" name="newsletter" value="newletter">
         <label for="newletter"> Subscribe to our newsletter </label>
       </form>
@@ -365,7 +394,9 @@ body, html {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>&copy; Incytus 2020. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+  , Images: <a href = "https://www.unsplash.com" title = "unsplash" target = "_blank" class = "w3-hover-text-green">Unsplash</a>
+  ,<a href = "https://www.pexels.com" title = "pexels" target = "_blank" class = "w3-hover-text-green">Pexels</a></p>
 </footer>
  
 <script>
@@ -395,6 +426,6 @@ function w3_close() {
 }
 </script>
 <script src = "assets/js/slideshow.js"></script>
-<script src = "assets/js/slideshow-gallery.js"></script>
+<script src = "assets/js/automatic-slideshow.js"></script>
 </body>
 </html>

@@ -10,7 +10,6 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
-  max-height: 1080px;
 }
 
 /* Next & previous buttons */
